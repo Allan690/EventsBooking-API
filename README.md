@@ -4,7 +4,7 @@ EventsBooking is a node.js GraphQL API built to allow users create and book even
 #### How to Setup
 1. Clone this repository and install the requirements by running: `yarn` on the terminal
 2. Create a new account with https://cloud.mongodb.com and spin a new cluster. 
-3. Rename the nodemon.json.example file to nodemon.json and enter the database details
+3. Rename the nodemon.json.example file to nodemon.json and enter values for the db environment variables.
 4. On your terminal, run the following commands:
 ```bash
 ~ touch .env
@@ -12,6 +12,4 @@ EventsBooking is a node.js GraphQL API built to allow users create and book even
 ```
 
 then start your server by running: `yarn start`.  
-
-
 
